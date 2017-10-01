@@ -91,7 +91,8 @@ function getProgramStationInfo(station) {
 			break;
 		}
 	}	
-	return var;
+
+    return var;
 }
 function getProgramTime(program) {
 	i = match(program, /[1-9][1-9]?/);
